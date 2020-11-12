@@ -23,7 +23,7 @@ public class LoginStepDefinitions {
 
     @Then("user should see dashboard page")
     public void user_should_see_dashboard_page() {
-        String expected = "Table";
+        String expected = "Dashboard";
         String actual = loginPage.getPageSubTitleText().trim();
 
         Assert.assertEquals("Title is not correct!", expected, actual);
