@@ -39,7 +39,6 @@ public class Driver {
                     driver = new FirefoxDriver();
                     break;
                 case "remote-chrome":
-
                     try {
 //                    ChromeOptions chromeOptions = new ChromeOptions();
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
