@@ -43,7 +43,7 @@ public class Driver {
 //                    ChromeOptions chromeOptions = new ChromeOptions();
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("chrome");
-                        URL gridUrl = new URL("http://54.208.214.61:4444/wd/hub");
+                        URL gridUrl = new URL("http://3.82.5.142:4444/wd/hub");
                         driver = new RemoteWebDriver(gridUrl, desiredCapabilities);
                     } catch (Exception e) {
                         e.printStackTrace();
